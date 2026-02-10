@@ -8,7 +8,7 @@ public class App {
 
         Lingkaran lingkar = new Lingkaran("Lingkaran", 14);
         lingkar.info();
-        System.out.println("Luas Lingkaran: "+lingkar.luas());
+        System.out.printf("Luas Lingkaran: %.2f",lingkar.luas());
     }
     
 }
